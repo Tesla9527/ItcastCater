@@ -1,0 +1,9 @@
+C:\Users\lin.b.liu\Desktop\Projects\ItcastCater\ItcastCaterModel\bin\Debug\ItcastCaterModel.dll
+C:\Users\lin.b.liu\Desktop\Projects\ItcastCater\ItcastCaterModel\bin\Debug\ItcastCaterModel.pdb
+C:\Users\lin.b.liu\Desktop\Projects\ItcastCater\ItcastCaterModel\obj\Debug\ItcastCaterModel.dll
+C:\Users\lin.b.liu\Desktop\Projects\ItcastCater\ItcastCaterModel\obj\Debug\ItcastCaterModel.pdb
+C:\Users\lin.b.liu\Desktop\Projects\ItcastCater\ItcastCaterModel\obj\Debug\ItcastCaterModel.csprojResolveAssemblyReference.cache
+C:\Users\Lin\Desktop\ItcastCater-master\ItcastCaterModel\bin\Debug\ItcastCaterModel.dll
+C:\Users\Lin\Desktop\ItcastCater-master\ItcastCaterModel\bin\Debug\ItcastCaterModel.pdb
+C:\Users\Lin\Desktop\ItcastCater-master\ItcastCaterModel\obj\Debug\ItcastCaterModel.dll
+C:\Users\Lin\Desktop\ItcastCater-master\ItcastCaterModel\obj\Debug\ItcastCaterModel.pdb

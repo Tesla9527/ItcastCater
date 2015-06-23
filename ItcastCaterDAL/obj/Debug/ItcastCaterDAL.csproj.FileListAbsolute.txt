@@ -1,0 +1,16 @@
+C:\Users\lin.b.liu\Desktop\Projects\ItcastCater\ItcastCaterDAL\bin\Debug\ItcastCaterDAL.dll
+C:\Users\lin.b.liu\Desktop\Projects\ItcastCater\ItcastCaterDAL\bin\Debug\ItcastCaterDAL.pdb
+C:\Users\lin.b.liu\Desktop\Projects\ItcastCater\ItcastCaterDAL\bin\Debug\ItcastCaterModel.dll
+C:\Users\lin.b.liu\Desktop\Projects\ItcastCater\ItcastCaterDAL\bin\Debug\System.Data.SQLite.dll
+C:\Users\lin.b.liu\Desktop\Projects\ItcastCater\ItcastCaterDAL\bin\Debug\ItcastCaterModel.pdb
+C:\Users\lin.b.liu\Desktop\Projects\ItcastCater\ItcastCaterDAL\obj\Debug\ItcastCaterDAL.csprojResolveAssemblyReference.cache
+C:\Users\lin.b.liu\Desktop\Projects\ItcastCater\ItcastCaterDAL\obj\Debug\ItcastCaterDAL.dll
+C:\Users\lin.b.liu\Desktop\Projects\ItcastCater\ItcastCaterDAL\obj\Debug\ItcastCaterDAL.pdb
+C:\Users\Lin\Desktop\ItcastCater-master\ItcastCaterDAL\bin\Debug\ItcastCaterDAL.dll
+C:\Users\Lin\Desktop\ItcastCater-master\ItcastCaterDAL\bin\Debug\ItcastCaterDAL.pdb
+C:\Users\Lin\Desktop\ItcastCater-master\ItcastCaterDAL\bin\Debug\ItcastCaterModel.dll
+C:\Users\Lin\Desktop\ItcastCater-master\ItcastCaterDAL\bin\Debug\System.Data.SQLite.dll
+C:\Users\Lin\Desktop\ItcastCater-master\ItcastCaterDAL\bin\Debug\ItcastCaterModel.pdb
+C:\Users\Lin\Desktop\ItcastCater-master\ItcastCaterDAL\obj\Debug\ItcastCaterDAL.csprojResolveAssemblyReference.cache
+C:\Users\Lin\Desktop\ItcastCater-master\ItcastCaterDAL\obj\Debug\ItcastCaterDAL.dll
+C:\Users\Lin\Desktop\ItcastCater-master\ItcastCaterDAL\obj\Debug\ItcastCaterDAL.pdb

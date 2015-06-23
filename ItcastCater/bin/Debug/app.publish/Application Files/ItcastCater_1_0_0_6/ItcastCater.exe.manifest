@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="ItcastCater.exe" version="1.0.0.6" publicKeyToken="3cb45d074aaf86f7" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="ItcastCater" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="ItcastCater.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet version="1" class="System.Security.NamedPermissionSet" Name="Internet" Description="Default rights given to Internet applications" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+            If you want to change the Windows User Account Control level replace the 
+            requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            Specifying requestedExecutionLevel node will disable file and registry virtualization.
+            If you want to utilize File and Registry Virtualization for backward 
+            compatibility then delete the requestedExecutionLevel node.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ItcastCater.exe" size="438784">
+      <assemblyIdentity name="ItcastCater" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>ZewsQPzL2gH9S7ZfjY/5Xn4Yir0lCtfeyUSYmxYwoF0=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ItcastCaterBLL.dll" size="9728">
+      <assemblyIdentity name="ItcastCaterBLL" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>rEekhFmxRl8fSyUgl+6j7WVy4i6Rrveryxlfu21owT0=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ItcastCaterDAL.dll" size="32256">
+      <assemblyIdentity name="ItcastCaterDAL" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>9TuuSQxHZpui1hx7zPIt6HI2nvPiiBPKWdh599cDKKQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ItcastCaterModel.dll" size="16896">
+      <assemblyIdentity name="ItcastCaterModel" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>Vaw8TcMFf7rpvCT2BOKLCh72MzEQqjqOudo8Sf7KxNQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MyControl.dll" size="7168">
+      <assemblyIdentity name="MyControl" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>HnMX+QABiItOy9MM8a6pOUIVTSZbyJksmWJk3MNijLU=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="System.Data.SQLite.dll" size="904704">
+      <assemblyIdentity name="System.Data.SQLite" version="1.0.66.0" publicKeyToken="DB937BC2D44FF139" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>SSYb5/IMnZ39H/NdcenzsbfeF/ZVgcZ77tQ9kz8euFw=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="cater.db" size="39936">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Lh3nvle1y/6Ac2HOgQwvcf7zf8eGnGdRxrjHCUHla54=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="ItcastCater.exe.config" size="303">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>oc8w+nMJ3SVeVrQhP0dWuyB+d2wLcahQQ6WSvkzuseU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- A list of all Windows versions that this application is designed to work with. 
+      Windows will automatically select the most compatible environment.-->
+      <!-- If your application is designed to work with Windows Vista, uncomment the following supportedOS node-->
+      <!--<supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}"></supportedOS>-->
+      <!-- If your application is designed to work with Windows 7, uncomment the following supportedOS node-->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}"/>-->
+      <!-- If your application is designed to work with Windows 8, uncomment the following supportedOS node-->
+      <!--<supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}"></supportedOS>-->
+      <!-- If your application is designed to work with Windows 8.1, uncomment the following supportedOS node-->
+      <!--<supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}"/>-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=TESLA_PC\Lin" issuerKeyHash="2a2cd21b535f023d9a5d9b2cade6bd87a8909618" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>iqygT4/RPGCYIS3pEMLjHvsmDf8jVqO/TurZRqV0qKk=</DigestValue></Reference></SignedInfo><SignatureValue>SMaJlwVuASQkinQtNd2djmsEifBgYFiC0D6XugiJ5oKKEZk9UagpYZLr7/k0/d2xNk3awswQwAW72Dnvygw9p1a68jazJQe2LUHiiNGPMPS5nvovk7QrTmYiRXgBX39yLmd7oCE2ReXJmZogInwPuxvjwXuHIhg2P53pmgpIjhM=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>+Wwrs4FwOIdmR5FdQs1YJWe9xyPyHH3nSpcuzPVPj9jaquoPH7K+z5rKwJXKFe8q81WPc1zAIhBQ2NGMDUfVAYPWU7L3lAMGvE56TLWzuvj99YDyplPRRnE/Rkn6x8ulxsNUAtXziUV/XRCg+hTiUVZsWDMc2rC2kbOh2EFy2w0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="a9a874a546d9ea4ebfa35623ff0d26fb1ee3c210e92d2198603cd18f4fa0ac8a" Description="" Url=""><as:assemblyIdentity name="ItcastCater.exe" version="1.0.0.6" publicKeyToken="3cb45d074aaf86f7" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=TESLA_PC\Lin</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>C3PJc9pJFeIfc6uh8G+e9CPA+5d7haoNZkT+4RFPclk=</DigestValue></Reference></SignedInfo><SignatureValue>Clxs003TV0wUMxdJA9W7zFF+dhbyEnId5JU30MkZgCaFa+4RsXuqH8cmJi2a62l6MpP9Nk2D7U7X3Kw7Od4d46rN1x7f7mZRvjVDs9DyzRtHqrFzsm5oFAMwLAZiIqDAlX/7qVv5hKsi4XrSuGM0cZWgTDkNcNqvPH2i/pJFm5U=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>+Wwrs4FwOIdmR5FdQs1YJWe9xyPyHH3nSpcuzPVPj9jaquoPH7K+z5rKwJXKFe8q81WPc1zAIhBQ2NGMDUfVAYPWU7L3lAMGvE56TLWzuvj99YDyplPRRnE/Rkn6x8ulxsNUAtXziUV/XRCg+hTiUVZsWDMc2rC2kbOh2EFy2w0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIByTCCATKgAwIBAgIQFj/V3SMejqBLkC7l31/jVTANBgkqhkiG9w0BAQsFADAjMSEwHwYDVQQDHhgAVABFAFMATABBAF8AUABDAFwATABpAG4wHhcNMTUwNjIyMDYyNDM1WhcNMTYwNjIxMTIyNDM1WjAjMSEwHwYDVQQDHhgAVABFAFMATABBAF8AUABDAFwATABpAG4wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAPlsK7OBcDiHZkeRXULNWCVnvccj8hx950qXLsz1T4/Y2qrqDx+yvs+aysCVyhXvKvNVj3NcwCIQUNjRjA1H1QGD1lOy95QDBrxOeky1s7r4/fWA8qZT0UZxP0ZJ+sfLpcbDVALV84lFf10QoPoU4lFWbFgzHNqwtpGzodhBctsNAgMBAAEwDQYJKoZIhvcNAQELBQADgYEATKxrrfxm5dCfsupzhxhwMHrwL9eGJFEmZY9IOYd5hceHO/vOFbaONoa4nUJCAbveir6WksqZXqC720eaWtBG5hEdvFT0Nj0vl5aazySjMlyEW1N25XHp5Wizt8NoXMI+O9HE5EyNpMN4x6JvCpafZrgqQfEe7kvPdWyYx7sUrdA=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
